@@ -1,7 +1,41 @@
-.socialmedia {
+/*Social Media */
+.socialmedia li a {
     float: right;
+    background-color: white;
+    padding: 5px;
+}
+
+.socialmedia ul {
+    background-color: white;
+    list-style-type: none;
 }
 
 .search {
     float: right;
+}
+/*Navigation Bar */
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.nav li {
+    display: inline;
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav a {
+    display: block;
+    padding: 8px;
 }
