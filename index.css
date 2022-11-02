@@ -1,13 +1,21 @@
 /*Social Media */
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
 .socialmedia li a {
-    float: right;
     background-color: white;
     padding: 5px;
 }
 
 .socialmedia ul {
-    background-color: white;
     list-style-type: none;
+}
+
+.socialmedia li {
+    display: inline;
+    float: right;
 }
 
 .search {
@@ -38,4 +46,14 @@
 .nav a {
     display: block;
     padding: 8px;
+}
+
+body {
+    width: 1100px;
+    margin: auto;
+}
+
+.lighthouse img {
+    margin: auto;
+    display: block;
 }
