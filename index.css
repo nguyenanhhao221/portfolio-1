@@ -53,7 +53,19 @@ body {
     margin: auto;
 }
 
-.lighthouse img {
+p {
+    width: 300px;
     margin: auto;
-    display: block;
+    padding-top: 10px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+img {
+    float: left;
+    padding-top: 10px;
+}
+
+.contact {
+    float: right;
 }
