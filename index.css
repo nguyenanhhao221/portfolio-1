@@ -18,9 +18,9 @@ h1 {
     float: right;
 }
 
-.search {
-    float: right;
-}
+.find {
+ margin: auto;
+} 
 /*Navigation Bar */
 .nav ul {
     list-style-type: none;
