@@ -1,6 +1,17 @@
+
 h1 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 50px;
+    width: 1100px;
+    margin: 0 auto;
+    border: 4px;
+    border-style: solid;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: white;
+    margin-top: 25px;
+    margin-bottom: 10px;
 }
 
 /*Navigation Bar */
@@ -47,16 +58,20 @@ body {
 p {
     width: 300px;
     margin: auto;
-    padding-top: 10px;
     text-align: justify;
     line-height: 25px;
 }
 
 img {
     float: left;
-    padding-top: 10px;
 }
 
 .contact {
     float: right;
+}
+
+.main {
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
 }
