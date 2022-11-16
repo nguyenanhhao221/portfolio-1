@@ -1,77 +1,79 @@
 h1 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 50px;
-    width: 1100px;
-    margin: 0 auto;
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: white;
-    margin-top: 25px;
-    margin-bottom: 10px;
-    border-radius: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: white;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  border-radius: 15px;
 }
 
 /*Navigation Bar */
 .nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: black;
-    border-radius: 15px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  border-radius: 15px;
 }
 
 .nav li {
-    display: inline;
-    float: left;
+  display: inline;
+  float: left;
 }
 
 .nav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 .nav a {
-    display: block;
-    padding: 8px;
+  display: block;
+  padding: 8px;
 }
 
 li a:hover {
-    background-color: darkgray;
+  background-color: darkgray;
 }
 
 .active {
-    background-color: darkgrey;
+  background-color: darkgrey;
 }
 
 body {
-    width: 1100px;
-    margin: auto;
-    background-color: gray;
+  width: 1100px;
+  margin: auto;
+  background-color: gray;
 }
 
 p {
-    text-align: justify;
-    line-height: 25px;
+  text-align: justify;
+  line-height: 25px;
 }
-
+p .intro {
+  order: 2;
+}
 img {
-    float: left;
-    margin-right: 25px;
+  margin-right: 25px;
 }
 
 .contact {
-    float: right;
-    margin-left: 25px;
+  margin-left: 25px;
+  order: 3;
 }
 
 .main {
-    background-color: white;
-    padding: 10px;
-    margin-top: 10px;
-    border-radius: 15px;
+  background-color: white;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 15px;
+  display: flex;
 }
