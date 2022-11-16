@@ -56,18 +56,19 @@ body {
 }
 
 p {
-    width: 300px;
-    margin: auto;
     text-align: justify;
     line-height: 25px;
+    margin: 0 auto;
 }
 
 img {
     float: left;
+    margin-right: 25px;
 }
 
 .contact {
     float: right;
+    margin-left: 25px;
 }
 
 .main {
@@ -75,4 +76,5 @@ img {
     padding: 10px;
     margin-top: 10px;
     border-radius: 15px;
+    height: max-content;
 }
