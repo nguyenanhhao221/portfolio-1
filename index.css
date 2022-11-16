@@ -1,4 +1,9 @@
 
+
+* {
+    border: 1px;
+    border-style: solid;
+}
 h1 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 50px;
@@ -58,7 +63,9 @@ body {
 p {
     text-align: justify;
     line-height: 25px;
+    width: 300px;
     margin: 0 auto;
+
 }
 
 img {
@@ -76,5 +83,4 @@ img {
     padding: 10px;
     margin-top: 10px;
     border-radius: 15px;
-    height: max-content;
 }
